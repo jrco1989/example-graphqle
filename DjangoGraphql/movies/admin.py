@@ -3,5 +3,5 @@ from .models import Category
 from .models import Movie
 
 
-admin.site.register(Category, CategoryAdmin)
-admin.site.register(Movie, MovieAdmin)
+admin.site.register(Category)
+admin.site.register(Movie)
