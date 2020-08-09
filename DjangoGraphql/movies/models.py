@@ -13,6 +13,6 @@ class Movie(models.Model):
     category = models.ForeignKey(Category, on_delete=models.CASCADE)
     
     def __str__(self):
-        return self.name +" - "+str(self.year)
+        return self.name + " - " + str(self.year)
     #this chain also to serves to represent the model in admin. 
     #this string also used to represent the model in admin. 

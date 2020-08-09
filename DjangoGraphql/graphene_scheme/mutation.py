@@ -40,4 +40,3 @@ class CreateMovieMutation(graphene.Mutation):
 class Mutation(graphene.AbstractType):
     create_category = CreateCategoryMutation.Field()
     create_movie = CreateMovieMutation.Field()
-    
